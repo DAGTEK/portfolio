@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gbenro Damola | Cybersecurity Professional</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <style>
+        .hero-gradient {
+            background: linear-gradient(135deg, #6B73FF 0%, #000DFF 50%, #0085FF 100%);
+        }
+        .portfolio-item:hover .portfolio-overlay {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .portfolio-overlay {
+            transition: all 0.3s ease;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800 bg-gray-50">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-md z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold text-blue-600">Gbenro Damola</span>
+                </div>
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#home" class="text-blue-600 font-medium">Home</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition">About</a>
+                    <a href="#services" class="text-gray-600 hover:text-blue-600 transition">Services</a>
+                    <a href="#portfolio" class="text-gray-600 hover:text-blue-600 transition">Portfolio</a>
+                    <a href="#certifications" class="text-gray-600 hover:text-blue-600 transition">Certifications</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition">Contact</a>
+                </div>
+                <div class="md:hidden flex items-center">
+                    <button id="menu-toggle" class="text-gray-600 hover:text-blue-600">
+                        <i data-feather="menu"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white py-2 px-4 shadow-lg">
+            <a href="#home" class="block py-2 text-blue-600 font-medium">Home</a>
+            <a href="#about" class="block py-2 text-gray-600 hover:text-blue-600 transition">About</a>
+            <a href="#services" class="block py-2 text-gray-600 hover:text-blue-600 transition">Services</a>
+            <a href="#portfolio" class="block py-2 text-gray-600 hover:text-blue-600 transition">Portfolio</a>
+            <a href="#certifications" class="block py-2 text-gray-600 hover:text-blue-600 transition">Certifications</a>
+            <a href="#contact" class="block py-2 text-gray-600 hover:text-blue-600 transition">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-gradient pt-24 pb-16 md:pt-32 md:pb-24 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:flex items-center justify-between">
+                <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+                    <h1 class="text-4xl md:text-5xl font-bold mb-4">Securing Digital Assets with Precision</h1>
+                    <p class="text-xl mb-8">I'm Gbenro Damola, a Cybersecurity Engineer specializing in Penetration Testing, Ethical Hacking, and SOC Analysis.</p>
+                    <div class="flex space-x-4">
+                        <a href="#contact" class="bg-white text-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-gray-100 transition">Get In Touch</a>
+                        <a href="#portfolio" class="border-2 border-white text-white px-6 py-3 rounded-lg font-medium hover:bg-white hover:text-blue-600 transition">View Work</a>
+                    </div>
+                </div>
+                <div class="md:w-1/2 flex justify-center" data-aos="fade-left">
+                    <img src="https://eu-images.contentstack.com/v3/assets/blt69509c9116440be8/blt8ffb90a2f64bacfa/6776f4544b281ca5e2bc465a/cybersecurity_NicoElNino-AlamyStockPhoto.jpg" alt="Cybersecurity Illustration" class="rounded-lg shadow-2xl max-w-full h-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">About Me</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            <div class="md:flex items-center">
+                <div class="md:w-1/3 mb-10 md:mb-0 flex justify-center" data-aos="fade-right">
+                    <img src="https://i.postimg.cc/k5y38gHR/Chat-GPT-Image-Sep-15-2025-05-58-12-PM.png" alt="Gbenro Damola" class="rounded-full w-64 h-64 object-cover border-4 border-blue-100 shadow-lg">
+                </div>
+                <div class="md:w-2/3 md:pl-16" data-aos="fade-left">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">Cybersecurity Professional</h3>
+                    <p class="text-gray-600 mb-6">With over 5 years of experience in the cybersecurity field, I specialize in identifying vulnerabilities, securing networks, and protecting organizations from cyber threats. My approach combines technical expertise with strategic thinking to deliver comprehensive security solutions.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                <i data-feather="shield" class="text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800 mb-1">Penetration Testing</h4>
+                                <p class="text-gray-600">Identifying and exploiting vulnerabilities to strengthen security.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                <i data-feather="eye" class="text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800 mb-1">SOC Analysis</h4>
+                                <p class="text-gray-600">Monitoring and responding to security incidents in real-time.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                <i data-feather="lock" class="text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800 mb-1">Ethical Hacking</h4>
+                                <p class="text-gray-600">Authorized hacking to evaluate system security.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                <i data-feather="cpu" class="text-blue-600"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-800 mb-1">Network Security</h4>
+                                <p class="text-gray-600">Designing and implementing secure network architectures.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">My Services</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                        <i data-feather="target" class="text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Penetration Testing</h3>
+                    <p class="text-gray-600">Comprehensive security assessments to identify vulnerabilities in your systems before attackers do.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                        <i data-feather="shield" class="text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Vulnerability Assessment</h3>
+                    <p class="text-gray-600">Systematic review of security weaknesses in an information system.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                        <i data-feather="monitor" class="text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">SOC Services</h3>
+                    <p class="text-gray-600">24/7 monitoring, detection, and response to cybersecurity incidents.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                        <i data-feather="code" class="text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Secure Code Review</h3>
+                    <p class="text-gray-600">Identifying security flaws in application source code to prevent vulnerabilities.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                        <i data-feather="users" class="text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Security Awareness Training</h3>
+                    <p class="text-gray-600">Educating employees to recognize and avoid security threats.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bg-blue-100 p-4 rounded-full w-16 h-16 flex items-center justify-center mb-6">
+                        <i data-feather="cloud" class="text-blue-600"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-800 mb-4">Cloud Security</h3>
+                    <p class="text-gray-600">Securing cloud environments and implementing best practices for cloud security.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">My Portfolio</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Selected projects showcasing my expertise in cybersecurity across various domains.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Portfolio Item 1 -->
+                <div class="portfolio-item relative rounded-lg overflow-hidden shadow-md hover:shadow-xl transition" data-aos="fade-up">
+                    <img src="http://static.photos/technology/640x360/1" alt="Network Penetration Test" class="w-full h-64 object-cover">
+                    <div class="portfolio-overlay absolute inset-0 bg-blue-600 bg-opacity-90 p-6 flex flex-col justify-end">
+                        <h3 class="text-xl font-bold text-white mb-2">Enterprise Network Penetration Test</h3>
+                        <p class="text-blue-100 mb-4">Identified critical vulnerabilities in a Fortune 500 company's network infrastructure.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded-full">Penetration Testing</span>
+                            <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded-full">Network Security</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 2 -->
+                <div class="portfolio-item relative rounded-lg overflow-hidden shadow-md hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="100">
+                    <img src="http://static.photos/technology/640x360/2" alt="Web Application Security" class="w-full h-64 object-cover">
+                    <div class="portfolio-overlay absolute inset-0 bg-blue-600 bg-opacity-90 p-6 flex flex-col justify-end">
+                        <h3 class="text-xl font-bold text-white mb-2">E-commerce Web Application Security</h3>
+                        <p class="text-blue-100 mb-4">Conducted comprehensive security assessment for a high-traffic e-commerce platform.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded-full">Web Security</span>
+                            <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded-full">OWASP Top 10</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 3 -->
+                <div class="portfolio-item relative rounded-lg overflow-hidden shadow-md hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="200">
+                    <img src="http://static.photos/technology/640x360/3" alt="SOC Implementation" class="w-full h-64 object-cover">
+                    <div class="portfolio-overlay absolute inset-0 bg-blue-600 bg-opacity-90 p-6 flex flex-col justify-end">
+                        <h3 class="text-xl font-bold text-white mb-2">SOC Implementation & Optimization</h3>
+                        <p class="text-blue-100 mb-4">Designed and implemented a Security Operations Center for a financial institution.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded-full">SOC</span>
+                            <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded-full">SIEM</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 4 -->
+                <div class="portfolio-item relative rounded-lg overflow-hidden shadow-md hover:shadow-xl transition" data-aos="fade-up">
+                    <img src="http://static.photos/technology/640x360/4" alt="Red Team Exercise" class="w-full h-64 object-cover">
+                    <div class="portfolio-overlay absolute inset-0 bg-blue-600 bg-opacity-90 p-6 flex flex-col justify-end">
+                        <h3 class="text-xl font-bold text-white mb-2">Enterprise Red Team Exercise</h3>
+                        <p class="text-blue-100 mb-4">Simulated advanced persistent threat against a multinational corporation.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded-full">Red Teaming</span>
+                            <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded-full">APT Simulation</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 5 -->
+                <div class="portfolio-item relative rounded-lg overflow-hidden shadow-md hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="100">
+                    <img src="http://static.photos/technology/640x360/5" alt="Cloud Security Assessment" class="w-full h-64 object-cover">
+                    <div class="portfolio-overlay absolute inset-0 bg-blue-600 bg-opacity-90 p-6 flex flex-col justify-end">
+                        <h3 class="text-xl font-bold text-white mb-2">AWS Cloud Security Assessment</h3>
+                        <p class="text-blue-100 mb-4">Comprehensive security review of cloud infrastructure for a SaaS provider.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded-full">Cloud Security</span>
+                            <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded-full">AWS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 6 -->
+                <div class="portfolio-item relative rounded-lg overflow-hidden shadow-md hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="200">
+                    <img src="http://static.photos/technology/640x360/6" alt="Mobile App Security" class="w-full h-64 object-cover">
+                    <div class="portfolio-overlay absolute inset-0 bg-blue-600 bg-opacity-90 p-6 flex flex-col justify-end">
+                        <h3 class="text-xl font-bold text-white mb-2">Mobile Banking App Security Review</h3>
+                        <p class="text-blue-100 mb-4">Identified and remediated critical security issues in a financial mobile application.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded-full">Mobile Security</span>
+                            <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded-full">iOS/Android</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 7 -->
+                <div class="portfolio-item relative rounded-lg overflow-hidden shadow-md hover:shadow-xl transition" data-aos="fade-up">
+                    <img src="http://static.photos/technology/640x360/7" alt="PCI DSS Compliance" class="w-full h-64 object-cover">
+                    <div class="portfolio-overlay absolute inset-0 bg-blue-600 bg-opacity-90 p-6 flex flex-col justify-end">
+                        <h3 class="text-xl font-bold text-white mb-2">PCI DSS Compliance Assessment</h3>
+                        <p class="text-blue-100 mb-4">Helped a payment processor achieve and maintain PCI DSS compliance.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded-full">Compliance</span>
+                            <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded-full">PCI DSS</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 8 -->
+                <div class="portfolio-item relative rounded-lg overflow-hidden shadow-md hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="100">
+                    <img src="http://static.photos/technology/640x360/8" alt="Incident Response" class="w-full h-64 object-cover">
+                    <div class="portfolio-overlay absolute inset-0 bg-blue-600 bg-opacity-90 p-6 flex flex-col justify-end">
+                        <h3 class="text-xl font-bold text-white mb-2">Ransomware Incident Response</h3>
+                        <p class="text-blue-100 mb-4">Led incident response team to contain and recover from a ransomware attack.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded-full">Incident Response</span>
+                            <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded-full">Forensics</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Portfolio Item 9 -->
+                <div class="portfolio-item relative rounded-lg overflow-hidden shadow-md hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="200">
+                    <img src="http://static.photos/technology/640x360/9" alt="IoT Security" class="w-full h-64 object-cover">
+                    <div class="portfolio-overlay absolute inset-0 bg-blue-600 bg-opacity-90 p-6 flex flex-col justify-end">
+                        <h3 class="text-xl font-bold text-white mb-2">IoT Device Security Assessment</h3>
+                        <p class="text-blue-100 mb-4">Identified critical vulnerabilities in smart home devices before production.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded-full">IoT Security</span>
+                            <span class="bg-blue-800 text-white text-xs px-3 py-1 rounded-full">Hardware Hacking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl md:text-4xl font-bold text-primary mb-4">My Certifications</h2>
+                <div class="w-20 h-1 bg-accent mx-auto"></div>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 flex flex-col items-center" data-aos="fade-up" data-aos-delay="100">
+                    <div class="bg-primary bg-opacity-10 p-4 rounded-full w-20 h-20 flex items-center justify-center mb-4">
+                        <i data-feather="award" class="text-primary text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-center">Certified Ethical Hacker (CEH)</h3>
+                    <p class="text-gray-600 text-center">EC-Council</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 flex flex-col items-center" data-aos="fade-up" data-aos-delay="200">
+                    <div class="bg-primary bg-opacity-10 p-4 rounded-full w-20 h-20 flex items-center justify-center mb-4">
+                        <i data-feather="award" class="text-primary text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-center">CompTIA Security+</h3>
+                    <p class="text-gray-600 text-center">CompTIA</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 flex flex-col items-center" data-aos="fade-up" data-aos-delay="300">
+                    <div class="bg-primary bg-opacity-10 p-4 rounded-full w-20 h-20 flex items-center justify-center mb-4">
+                        <i data-feather="award" class="text-primary text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-center">Offensive Security Certified Professional (OSCP)</h3>
+                    <p class="text-gray-600 text-center">Offensive Security</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 flex flex-col items-center" data-aos="fade-up" data-aos-delay="400">
+                    <div class="bg-primary bg-opacity-10 p-4 rounded-full w-20 h-20 flex items-center justify-center mb-4">
+                        <i data-feather="award" class="text-primary text-3xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2 text-center">Certified Information Systems Security Professional (CISSP)</h3>
+                    <p class="text-gray-600 text-center">(ISC)²</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Get In Touch</h2>
+                <div class="w-20 h-1 bg-blue-600 mx-auto"></div>
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Have a security challenge? Let's discuss how I can help secure your digital assets.</p>
+            </div>
+            <div class="md:flex">
+                <div class="md:w-1/2 mb-10 md:mb-0" data-aos="fade-right">
+                    <div class="bg-gray-50 p-8 rounded-lg shadow-md">
+                        <h3 class="text-xl font-bold text-gray-800 mb-6">Contact Information</h3>
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i data-feather="mail" class="text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 mb-1">Email</h4>
+                                    <a href="mailto:gbenrodamola12@gmail.com" class="text-blue-600 hover:underline">gbenrodamola12@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i data-feather="linkedin" class="text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 mb-1">LinkedIn</h4>
+                                    <a href="https://www.linkedin.com/in/gbenro-damola-a079348a" target="_blank" class="text-blue-600 hover:underline">linkedin.com/in/gbenro-damola-a079348a</a>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i data-feather="github" class="text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 mb-1">GitHub</h4>
+                                    <a href="http://github.com/DAGTEK" target="_blank" class="text-blue-600 hover:underline">github.com/DAGTEK</a>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i data-feather="file-text" class="text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-gray-800 mb-1">Resume</h4>
+                                    <a href="https://drive.google.com/file/d/1MOu5AimySOa38fU5J-SelUKTV_GrMbDs/view" class="text-blue-600 hover:underline">Download PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="md:w-1/2 md:pl-10" data-aos="fade-left">
+                    <div class="h-full rounded-lg overflow-hidden shadow-md">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.215256018072!2d-73.9878449242396!3d40.74844097138995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a9b3117469%3A0xd134e199a405a163!2sEmpire%20State%20Building!5e0!3m2!1sen!2sus!4v1712345678901!5m2!1sen!2sus" width="100%" height="100%" style="min-height: 400px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="md:flex md:items-center md:justify-between">
+                <div class="text-center md:text-left">
+                    <h3 class="text-xl font-bold">Gbenro Damola</h3>
+                    <p class="text-gray-400 mt-2">Cybersecurity Engineer & Consultant</p>
+                </div>
+            </div>
+            <div class="mt-8 border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm text-center md:text-left">© 2025 Gbenro Damola. All rights reserved.</p>
+                <div class="mt-4 md:mt-0 flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white text-sm">Privacy Policy</a>
+                    <a href="#" class="text-gray-400 hover:text-white text-sm">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+
+        // Mobile menu toggle
+        document.getElementById('menu-toggle').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.getElementById('mobile-menu').classList.add('hidden');
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        feather.replace();
+    </script>
+</body>
+</html>
